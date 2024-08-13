@@ -5,6 +5,7 @@ import Home from './pages/Home/Home'
 import Analytics from './pages/Analytics/Analytics'
 import Finance from './pages/Finance/Finance'
 import Reports from './pages/Reports/Reports'
+import Demo from './pages/demo/Demo'
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
       </Route>
     </Routes>
     </BrowserRouter>
+    // <>
+    // <Demo/>
+    // </>
   )
 }
 
